@@ -1,0 +1,175 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f8fafc;
+color:#0f172a;
+}
+
+header{
+background:#0f172a;
+padding:20px 8%;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#60a5fa;
+font-size:30px;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+}
+
+.nav-links li{
+margin-left:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(to right,#0f172a,#1e3a8a);
+color:white;
+padding:40px;
+}
+
+.hero-text h1{
+font-size:60px;
+}
+
+.hero-text p{
+margin:20px 0;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#3b82f6;
+color:white;
+text-decoration:none;
+border-radius:40px;
+}
+
+.section{
+padding:100px 8%;
+text-align:center;
+}
+
+.section h2{
+margin-bottom:40px;
+font-size:42px;
+color:#2563eb;
+}
+
+.cards,
+.testimonial-container,
+.stats-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card,
+.testimonial-card,
+.stat-box{
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+background:white;
+transition:0.3s;
+}
+
+.card:hover,
+.testimonial-card:hover,
+.stat-box:hover{
+transform:translateY(-10px);
+}
+
+.dark-section{
+background:#0f172a;
+color:white;
+}
+
+.dark-card{
+background:#1e293b;
+}
+
+.stats-container .stat-box{
+background:#2563eb;
+color:white;
+}
+
+.testimonials-section{
+background:linear-gradient(to right,#0f172a,#1e3a8a);
+color:white;
+}
+
+.testimonials-section h2{
+color:#60a5fa;
+}
+
+.testimonial-card{
+color:#0f172a;
+}
+
+.contact-section{
+background:#0f172a;
+color:white;
+}
+
+.contact-section h2{
+color:#60a5fa;
+}
+
+form{
+max-width:600px;
+margin:auto;
+}
+
+form input,
+form textarea{
+width:100%;
+padding:15px;
+margin-bottom:20px;
+border:none;
+border-radius:10px;
+}
+
+form button{
+width:100%;
+padding:15px;
+border:none;
+background:#3b82f6;
+color:white;
+border-radius:10px;
+font-size:18px;
+}
+
+footer{
+background:#020617;
+color:white;
+text-align:center;
+padding:20px;
+}
